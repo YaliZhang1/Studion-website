@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #fff;
+    --secondary-color: #12f7d6;
+    --secondary-background-color: #292f36;
+}
+
+body{
+    background-color: #1A1E23;
+}
+
+.section-container{
+    padding: 24px 5%;
+}

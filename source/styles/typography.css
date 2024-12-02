@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Ubuntu Typography */
+.bg-text-u {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 117px;
+  line-height: 134px;
+}
+
+.h1-u {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 64px;
+  line-height: 72px;
+}
+
+.h2-u {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.button-u {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 20px;
+  line-height: 24px;
+}
+
+article {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300; /* Light */
+  font-size: 16px;
+  line-height: 32px;
+  padding: 32px 0;
+}
+p {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300; /* Light */
+  font-size: 16px;
+  line-height: 18px;
+  padding: 16px 0;
+}
+.label-u-m {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500; /* Medium */
+  font-size: 14px;
+  line-height: 16px;
+}
+.label-u-l {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300; /* Light */
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* IBM Plex Mono Typography */
+.number-m {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500; /* Medium */
+  font-size: 48px;
+  line-height: 62px;
+}
+.h2-m {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500; /* Medium */
+  font-size: 32px;
+  line-height: 42px;
+}
+.logo-m {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500; /* Medium */
+  font-size: 32px;
+  line-height: 42px;
+}
+.menu-m {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400; /* Regular */
+  font-size: 24px;
+  line-height: 32px;
+}
+.media-m {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400; /* Regular */
+  font-size: 16px;
+  line-height: 20px;
+}
+.para-m {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400; /* Regular */
+  font-size: 16px;
+  line-height: 20px;
+}
+.code-m {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400; /* Regular */
+  font-size: 14px;
+  line-height: 18px;
+  /* padding: 16px 0; */
+}
+
+.title {
+  /*h2 {*/
+  font-family: Ubuntu;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  padding: 8px 40px;
+  border: 1px solid #12f7d6;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: #292f36;
+  /*}*/
+}
+
+.accent-text {
+  color: var(--secondary-color);
+}
+
+.dark-text {
+  color: var(--secondary-background-color);
+}

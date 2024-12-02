@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.vertical-menu {
+  position: fixed;
+  top: 80px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 8px ;
+  border: solid 1px white;
+  border-radius: 40px;
+  background-color: black;
+}
+
+.menu-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 40px;
+  text-decoration: none;
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+.menu-item img {
+  width: 24px;
+  height: 24px;
+
+  transition: filter 0.3s;
+}
+.menu-item.checked {
+  background-color: white;
+}
+
+.menu-item.checked img {
+  filter: invert(1);
+}
+
+.grids {
+  background-color: #fff;
+}
+
+.menu-item .tooltip {
+  position: fixed;
+  left: 100px;
+  background-color: #fff;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transform: translateY(-50%);
+  transition: opacity 0.3s;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.menu-item:hover .tooltip {
+  animation: showTooltip 0.3s forwards 2s;
+}
+
+@keyframes showTooltip {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.icon {
+  font-size: 24px;
+}

@@ -1,0 +1,32 @@
+.works-container {
+  padding: 20px;
+  width: 100%;
+  background-color: #2d2d2d !important;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.works-row {
+  display: flex;
+  align-self: center;
+  gap: 32px;
+  -webkit-appearance: 24px;
+  -moz-appearance: 24px;
+  appearance: 24px;
+  margin-top: 32px;
+}
+
+.work-item {
+  width: 240px;
+}
+
+.work-item img {
+  width: 240px;
+}
+
+.works-content {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
