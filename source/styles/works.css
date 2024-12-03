@@ -18,10 +18,12 @@
 
 .work-item {
   width: 240px;
+  aspect-ratio: 9 / 12;
 }
 
 .work-item img {
   width: 240px;
+  aspect-ratio: 9 / 12;
 }
 
 .works-content {
